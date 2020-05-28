@@ -1,0 +1,60 @@
+From;To;Type;Through;-1;-1;-1;-1;Comment
+797;796;major_river;2301;-1;-1;-1;-1;Man?f-Cairo
+649;2014;major_river;2305;-1;-1;-1;-1;Basra-Maysan
+656;2014;major_river;2307;-1;-1;-1;-1;Tigris-Maysan
+656;690;major_river;2307;-1;-1;-1;-1;Tigris-Al Amarah
+656;649;major_river;2311;-1;-1;-1;-1;Tigris-Basra
+729;690;major_river;2308;-1;-1;-1;-1;Tadmor-Al Amarah
+693;690;major_river;2308;-1;-1;-1;-1;Baghdad-Al Amarah
+711;685;major_river;2310;-1;-1;-1;-1;sinjar-Nineveh
+692;691;major_river;2311;-1;-1;-1;-1;Al Nadjaf-Al Nasiryah
+655;691;major_river;2312;-1;-1;-1;-1;Kufa-Al Nasiryah
+655;729;major_river;2312;-1;-1;-1;-1;Kufa-Tadmor
+694;729;major_river;2313;-1;-1;-1;-1;Karbala-Tadmor
+694;693;major_river;2313;-1;-1;-1;-1;Karbala-Baghdad
+510;513;major_river;2318;-1;-1;-1;-1;Konstanta-B?rlad
+510;1529;major_river;2318;-1;-1;-1;-1;Konstanta-Ialomita
+509;1529;major_river;2319;-1;-1;-1;-1;Karvuna-Ialomita
+508;1529;major_river;2319;-1;-1;-1;-1;Preslav-Ialomita
+508;514;major_river;2319;-1;-1;-1;-1;Preslav-Turnu
+499;514;major_river;2319;-1;-1;-1;-1;Tarnovo-Turnu
+499;516;major_river;2320;-1;-1;-1;-1;Tarnovo-Severin
+514;516;major_river;2331;-1;-1;-1;-1;Turnu-Severin
+514;1148;major_river;2331;-1;-1;-1;-1;Turnu-Targu Jiu
+506;516;major_river;2320;-1;-1;-1;-1;Vidin-Severin
+506;1006;major_river;2321;-1;-1;-1;-1;Vidin-Krass?
+961;1006;major_river;2321;-1;-1;-1;-1;Branicevo-Krass?
+961;517;major_river;2322;-1;-1;-1;-1;Branicevo-Temes
+505;517;major_river;2322;-1;-1;-1;-1;Belgrad-Temes
+1000;517;major_river;2322;-1;-1;-1;-1;Syrmia-Temes
+518;1000;major_river;2323;-1;-1;-1;-1;Bacs-Syrmia
+518;462;major_river;2323;-1;-1;-1;-1;Bacs-Krizevci
+518;452;major_river;2324;-1;-1;-1;-1;Bacs-Pecs
+524;445;major_river;2325;-1;-1;-1;-1;Gemer-Pressburg
+252;1965;major_river;2329;-1;-1;-1;-1;Schelklingen-Hirschberg
+252;1032;major_river;2330;-1;-1;-1;-1;Schelklingen-Oettingen
+252;1034;major_river;2330;-1;-1;-1;-1;Schelklingen-Helfenstein
+1000;1127;major_river;2332;-1;-1;-1;-1;Syrmia-Macva
+1000;1581;major_river;2332;-1;-1;-1;-1;Syrmia-Soli
+1000;463;major_river;2333;-1;-1;-1;-1;Syrmia-Usora
+462;463;major_river;2333;-1;-1;-1;-1;Krizevci-Usora
+462;1524;major_river;2333;-1;-1;-1;-1;Krizevci-Vrbas
+1004;1524;major_river;2334;-1;-1;-1;-1;Pozega-Vrbas
+461;1524;major_river;2334;-1;-1;-1;-1;Zagreb-Vrbas
+461;959;major_river;2334;-1;-1;-1;-1;Zagreb-Vodica
+518;517;major_river;2335;-1;-1;-1;-1;Bacs-Temes
+518;521;major_river;2335;-1;-1;-1;-1;Bacs-Csanad
+462;452;major_river;2337;-1;-1;-1;-1;Krizevci-Pecs
+462;537;major_river;2337;-1;-1;-1;-1;Krizevci-Bereg
+460;537;major_river;2338;-1;-1;-1;-1;Varadzin-Bereg
+309;982;major_river;2340;-1;-1;-1;-1;Altmark-Prignitz
+1074;982;major_river;2343;-1;-1;-1;-1;Magdeburg-Prignitz
+365;1303;major_river;2346;-1;-1;-1;-1;Brandenburg-Neumark
+1064;430;major_river;2347;-1;-1;-1;-1;Niederlausitz-Lubusz
+368;369;major_river;2349;-1;-1;-1;-1;Danzig-Chelminskie
+1301;369;major_river;2349;-1;-1;-1;-1;Swiecie-Chelminskie
+990;425;major_river;2355;-1;-1;-1;-1;Lida-Podlasie
+1139;321;major_river;2358;-1;-1;-1;-1;Sabionetta-Parma
+235;1124;major_river;2359;-1;-1;-1;-1;Lombardia-Piacenza
+790;789;major_river;2301;-1;-1;-1;-1;Sarqihya-Pelusia
+790;785;major_river;2301;-1;-1;-1;-1;Sarqihya-Sinai
