@@ -226,7 +226,7 @@ def get_adjacencies(baseMapAdjacencies):
 
 i=0
 def write_positons(countyList, XOffSet, YOffSet):
-    outputPositions = open("Output Map\positions.txt", "w",encoding='utf-8',errors='ignore')
+    outputPositions = open("Output Map\positions_tmp.txt", "w",encoding='utf-8',errors='ignore')
     ThreePlaces = Decimal(10) ** -3
     for county in countyList:
         #print(county.pos_name)
@@ -281,7 +281,7 @@ def write_positons(countyList, XOffSet, YOffSet):
     outputPositions.close()
 #temp for merging old ports into new positions
 def write_positons2(countyList, countyList2, XOffSet, YOffSet):
-    outputPositions = open("Output Map\positions.txt", "w",encoding='utf-8',errors='ignore')
+    outputPositions = open("Output Map\positions2_tmp.txt", "w",encoding='utf-8',errors='ignore')
     ThreePlaces = Decimal(10) ** -3
     for county in countyList:
         for county2 in countyList2:
@@ -349,7 +349,7 @@ def write_Definitions(deffList):
         outputDeff.write("%s"%county.other_info)
     outputDeff.close()
 def write_Adjacencies(adjList):
-    outputAdj = open("Output Map\\adjacencies.csv", "w",encoding='utf-8',errors='ignore')
+    outputAdj = open("Output Map\\adjacencies_tmp.csv", "w",encoding='utf-8',errors='ignore')
     outputAdj.write("From;To;Type;Through;-1;-1;-1;-1;Comment")
     for county in adjList:
         outputAdj.write("\n%g;"%county.IDfrom)
@@ -428,7 +428,6 @@ baseMapDefinition = open("Base Map\definition.csv",'r',encoding='utf-8',errors='
 baseMapDefinition2 = open("MNR Map\definition.csv",'r',encoding='utf-8',errors='ignore')
 baseMapPositions = open("Base Map\positions.txt",'r',encoding='utf-8',errors='ignore')
 MNRMapPositions = open("MNR Map\positions.txt",'r',encoding='utf-8',errors='ignore')
-baseMapAdjacencies = open("Base Map\\adjacencies.csv",'r',encoding='utf-8',errors='ignore')
 MNRMapAdjacencies = open("MNR Map\\adjacencies.csv",'r',encoding='utf-8',errors='ignore')
 
 MNRDefaultMap = open("MNR Map\default.map",'r',encoding='utf-8',errors='ignore')
@@ -475,7 +474,6 @@ deffList = get_province_deff(baseMapDefinition)
 deffList2 = get_province_deff(baseMapDefinition2)
 
 #get the Adjacencies information
-#adjList = get_adjacencies(baseMapAdjacencies)
 adjList2 = get_adjacencies(MNRMapAdjacencies)
 
 #Grab all provinces that will be effected by change
